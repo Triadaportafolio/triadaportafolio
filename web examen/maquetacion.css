@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#FFF;
+	background-image:url(white-diagonal-striped-plastic-texture.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:1400px;
+	height:auto;
+}
+
+.menu {
+	width:1400px;
+	height:100px;
+	margin-top:30px;
+	float:none;
+	background-color:#000;
+	opacity: 0.6;	
+}
+
+img {
+	max-height:100%;
+	max-width:100%;}
+
+.port {
+	width:150px;
+	height:auto;
+	float:left;
+	margin-left:100px;
+	margin-top:12px;
+	}
+	
+.inicio{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:500px;
+	padding-top:40px;
+}
+
+.inicio a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.inicio a:link{
+	color:#FFF;
+}
+
+.inicio a:visited{
+	color:#FFF;
+}
+
+.inicio a:hover{
+	color:#FC0;
+}
+	
+.acerca{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:100px;
+	padding-top:40px;
+}
+
+.acerca a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.acerca a:link{
+	color:#FFF;
+}
+
+.acerca a:visited{
+	color:#FFF;
+}
+
+.acerca a:hover{
+	color:#FC0;
+}
+	
+.portafolio{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:100px;
+	padding-top:40px;
+}
+
+.portafolio a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.portafolio a:link{
+	color:#FFF;
+}
+
+.portafolio a:visited{
+	color:#FFF;
+}
+
+.portafolio a:hover{
+	color:#FC0;
+}
+
+.portafolio a:hover:after{
+	width: 100px;
+	height:45px;
+	display: inline-block;
+    content:'Laura Méndez Angie Urbina Noelya Elías';
+    vertical-align: middle;
+	background-color:#000;
+    border-radius:20px;
+   	margin-top:10px;
+	font-size:14px;
+	padding:15px;
+	color:#FFF;
+}
+
+.contacto{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:100px;
+	padding-top:40px;
+}
+
+.contacto a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.contacto a:link{
+	color:#FFF;
+}
+
+.contacto a:visited{
+	color:#FFF;
+}
+
+.contacto a:hover{
+	color:#FC0;
+}
+
+.linea{
+	width:1400px;
+	height:3px;
+	background-color:#FC0;
+	float:left;
+	}
+	
+.footer {
+	width: 1400px;
+	height: 135px;
+	margin-top: 460px;
+	float: none;
+	background-color: #099;
+	color: #D6D6D6;
+}
+
+.nombres{
+	width:350px;
+	height:auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#CCC;
+	margin-left:550px;
+	margin-top:3px;
+}
+
+.info{
+	width:350px;
+	height:auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:white;
+	margin-left:547px;
+	margin-top:3px;
+	text-align:center;
+}
+
+.foto{
+	width:350px;
+	height:auto;
+	float:left;
+	margin-left:115px;
+	margin-top:60px;
+	}
+
+.lan{
+	width:350px;
+	height:257px;
+	float:left;
+	padding-top:200px;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	text-align:center;
+}
+
+.boton{
+	width:150px;
+	height:150px;
+	float:left;
+	background-position:top;
+	background-size:cover;
+	background-image:url(maquetacionn.png);
+	margin:30px;
+	opacity:0.5;
+}
+	
+.boton:hover{
+	background-position:bottom;
+	opacity:1.0;
+}
+	
+.boton2{
+	width:150px;
+	height:150px;
+	float:left;
+	background-position:top;
+	background-size:cover;
+	background-image:url(maq2.png);
+	margin:30px;
+	opacity:0.5;
+}
+	
+.boton2:hover{
+	background-position:bottom;
+	opacity:1.0;
+}
+
+.boton3{
+	width:150px;
+	height:150px;
+	float:left;
+	background-position:top;
+	background-size:cover;
+	background-image:url(maq3.png);
+	margin:30px;
+	opacity:0.5;
+}
+	
+.boton3:hover{
+	background-position:bottom;
+	opacity:1.0;
+}
+
+.boton4{
+	width:150px;
+	height:150px;
+	float:left;
+	background-position:top;
+	background-size:cover;
+	background-image:url(maq4.png);
+	margin:30px;
+	opacity:0.5;
+}
+	
+.boton4:hover{
+	background-position:bottom;
+	opacity:1.0;
+}
+
+.boton5{
+	width:150px;
+	height:150px;
+	float:left;
+	background-position:top;
+	background-size:cover;
+	background-image:url(maq5.png);
+	margin:30px;
+	opacity:0.5;
+}
+	
+.boton5:hover{
+	background-position:bottom;
+	opacity:1.0;
+}
+
+.boton6{
+	width:150px;
+	height:150px;
+	float:left;
+	background-position:top;
+	background-size:cover;
+	background-image:url(maqq.png);
+	margin:30px;
+	opacity:0.5;
+}
+	
+.boton6:hover{
+	background-position:bottom;
+	opacity:1.0;
+}

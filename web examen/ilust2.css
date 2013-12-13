@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#FFF;
+	background-image:url(white-diagonal-striped-plastic-texture.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:1400px;
+	height:auto;
+}
+
+.menu {
+	width:1400px;
+	height:100px;
+	margin-top:30px;
+	float:none;
+	background-color:#000;
+	opacity: 0.6;	
+}
+
+img {
+	max-height:100%;
+	max-width:100%;}
+
+.port {
+	width:150px;
+	height:auto;
+	float:left;
+	margin-left:100px;
+	margin-top:12px;
+	}
+	
+.inicio{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:500px;
+	padding-top:40px;
+}
+
+.inicio a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.inicio a:link{
+	color:#FFF;
+}
+
+.inicio a:visited{
+	color:#FFF;
+}
+
+.inicio a:hover{
+	color:#FC0;
+}
+	
+.acerca{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:100px;
+	padding-top:40px;
+}
+
+.acerca a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.acerca a:link{
+	color:#FFF;
+}
+
+.acerca a:visited{
+	color:#FFF;
+}
+
+.acerca a:hover{
+	color:#FC0;
+}
+	
+.portafolio{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:100px;
+	padding-top:40px;
+}
+
+.portafolio a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.portafolio a:link{
+	color:#FFF;
+}
+
+.portafolio a:visited{
+	color:#FFF;
+}
+
+.portafolio a:hover{
+	color:#FC0;
+}
+
+.portafolio a:hover:after{
+	width: 100px;
+	height:45px;
+	display: inline-block;
+    content:'Laura Méndez Angie Urbina Noelya Elías';
+    vertical-align: middle;
+	background-color:#000;
+    border-radius:20px;
+   	margin-top:10px;
+	font-size:14px;
+	padding:15px;
+	color:#FFF;
+}
+
+.contacto{
+	width:53px;
+	height:60px;
+	float:left;
+	margin-left:100px;
+	padding-top:40px;
+}
+
+.contacto a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.contacto a:link{
+	color:#FFF;
+}
+
+.contacto a:visited{
+	color:#FFF;
+}
+
+.contacto a:hover{
+	color:#FC0;
+}
+
+.linea{
+	width:1400px;
+	height:3px;
+	background-color:#FC0;
+	float:left;
+	}
+	
+.medio{
+	width:1400px;
+	height:457px;
+	float:left;
+}
+	
+.lan{
+	width:457px;
+	height:457px;
+	float:left;
+	margin-left:280px;
+}
+
+.persona{
+	width:150px;
+	height:150px;
+	margin:80px 0px 0px 100px;
+	float:left;
+}
+
+.person{
+	width:400px;
+	height:60px;
+	color:#000;
+	background-color:#FC0;
+	float:left;
+	margin-left:100px;
+	border-radius:50px;
+	text-align:justify;
+	padding:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	opacity:0.6;
+}	
+	
+.footer {
+	width: 1400px;
+	height: 135px;
+	margin-top: 460px;
+	float: none;
+	background-color: #099;
+	color: #D6D6D6;
+}
+
+.nombres{
+	width:350px;
+	height:auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#CCC;
+	margin-left:550px;
+	margin-top:3px;
+}
+
+.info{
+	width:350px;
+	height:auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:white;
+	margin-left:547px;
+	margin-top:3px;
+	text-align:center;
+}
+
+.anterior{
+	width:90px;
+	height:34px;
+	float:left;
+	margin-top:30px;
+	margin-left:330px;
+	border-radius:50px;
+	background-color:#000;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-decoration:none;
+	padding-top:15px;
+	color:white;
+	opacity:0.6
+}
+	
+.anterior:hover{
+	opacity:0.7;
+	color:white;
+}
+
+.anterior:visited{
+	opacity:0.7;
+	color:white;
+}
+
+.siguiente{
+	width:120px;
+	height:34px;
+	float:left;
+	margin-top:-50px;
+	margin-left:430px;
+	border-radius:50px;
+	background-color:#000;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-decoration:none;
+	padding-top:15px;
+	color:white;
+	opacity:0.6
+}
+	
+.siguiente:hover{
+	opacity:0.7;
+	color:white;
+}
+
+.siguiente:visited{
+	opacity:0.7;
+	color:white;
+}
